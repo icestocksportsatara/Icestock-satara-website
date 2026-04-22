@@ -1,0 +1,15 @@
+# robots.txt for Icestock Sport Association of Satara
+# https://icestocksportsatara.github.io/Icestock-satara-website/
+
+User-agent: *
+Allow: /
+
+# Block unnecessary paths (if any)
+Disallow: /static/js/
+Disallow: /static/css/
+
+# Sitemap location
+Sitemap: https://icestocksportsatara.github.io/Icestock-satara-website/sitemap.xml
+
+# Crawl delay (optional - seconds)
+Crawl-delay: 1
