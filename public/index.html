@@ -38,11 +38,6 @@
     <meta name="twitter:description" content="Official website of Icestock Sport Association of Satara. Promoting Icestock sports in Maharashtra." />
     <meta name="twitter:image" content="https://icestocksportsatara.github.io/Icestock-satara-website/logo192.png" />
 
-    <!-- FAVICON & APP ICONS -->
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     <!-- STRUCTURED DATA (Google Rich Results साठी) -->
     <script type="application/ld+json">
     {
@@ -62,6 +57,41 @@
       }
     }
     </script>
+    <!-- Favicon links (सगळ्या sizes साठी) -->
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="%PUBLIC_URL%/android-chrome-512x512.png" />
+
+    <!-- Site Name साठी Structured Data (Google ला "GitHub Pages documentation" दाखवू नये यासाठी) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Icestock Sport Association of Satara",
+      "alternateName": "Icestock Satara",
+      "url": "https://icestocksportsatara.github.io/Icestock-satara-website/"
+    }
+    </script>
+
+    <!-- Organization Schema (logo Google ला दिसण्यासाठी) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsOrganization",
+      "name": "Icestock Sport Association of Satara",
+      "url": "https://icestocksportsatara.github.io/Icestock-satara-website/",
+      "logo": "https://icestocksportsatara.github.io/Icestock-satara-website/android-chrome-512x512.png",
+      "sameAs": [
+        "https://www.instagram.com/sataraicestocksport"
+      ]
+    }
+    </script>
+
+    <!-- Open Graph Site Name -->
+    <meta property="og:site_name" content="Icestock Sport Association of Satara" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
