@@ -87,12 +87,11 @@ export const newsItems = [
 
 export const events = [
   {
-    id: 1,
-    date: "01.05. - 15.05.2026",
-    title:
-      "Summer Camp & Selection Trials for 13th National Icestock Championship 2026",
+    id: 0,
+    date: "August 2026",
+    title: "Maharashtra State Icestock Sport Championship 2026",
     description:
-      "Camp selection for the upcoming 13th National Icestock Sport Championship 2026 at Himadri Ice Rink, Dehradun \u2013 a golden opportunity for Satara athletes to represent Maharashtra at the national level.",
+      "The upcoming Maharashtra State Icestock Sport Championship 2026 – open to all interested athletes across the state. Register now via WhatsApp and be part of Maharashtra's biggest icestock event of the year.",
     image: media.iceRink,
     tags: [
       { label: "Team play", code: "TP", color: "blue" },
@@ -101,42 +100,11 @@ export const events = [
     ],
     country: "IND",
     flag: "https://flagcdn.com/w320/in.png",
-    location: "Satara, Maharashtra",
-  },
-  {
-    id: 2,
-    date: "20.05. - 25.05.2026",
-    title:
-      "Master Training Camp by International & National Player-Coach",
-    description:
-      "Exclusive 6-day master training camp for selected national-level players, conducted by an international & national player-coach \u2013 focused on technique, tactics and mental conditioning.",
-    image: media.presidentArena,
-    tags: [
-      { label: "Coaching", code: "MT", color: "blue" },
-      { label: "Target", code: "TC", color: "teal" },
-    ],
-    country: "IND",
-    flag: "https://flagcdn.com/w320/in.png",
-    location: "Satara, Maharashtra",
-  },
-  {
-    id: 3,
-    date: "12.12. - 18.12.2026",
-    title: "13th National Icestock Sport Championship 2026",
-    description:
-      "The flagship national championship hosted at Himadri Ice Rink, Dehradun \u2013 bringing together the best icestock athletes from across India.",
-    image: media.iceRink,
-    tags: [
-      { label: "Team play", code: "TP", color: "blue" },
-      { label: "Target", code: "TC", color: "teal" },
-      { label: "Distance", code: "DC", color: "orange" },
-    ],
-    country: "IND",
-    flag: "https://flagcdn.com/w320/in.png",
-    location: "Dehradun, Uttarakhand",
+    location: "Maharashtra",
+    whatsappLink: "https://wa.me/917768903577?text=I%20am%20interested%20in%20Maharashtra%20State%20Icestock%20Championship%202026",
+    registrationOpen: true,
   },
 ];
-
 // 5 disciplines with rules & scoring (based on IFI / International Federation)
 export const disciplines = [
   {
