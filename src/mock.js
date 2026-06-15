@@ -105,6 +105,7 @@ export const events = [
     registrationOpen: true,
   },
 ];
+
 // 5 disciplines with rules & scoring (based on IFI / International Federation)
 export const disciplines = [
   {
