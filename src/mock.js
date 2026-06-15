@@ -23,7 +23,7 @@ export const siteInfo = {
 export const media = {
   hero: asset("/images/hero-india-jersey.jpg"),
   presidentArena: asset("/images/president-arena.jpg"),
-  iceRink: asset("/images/ice-rink.jpg"),
+  iceRink: "https://drive.google.com/uc?export=view&id=19O4ADLgqIC9dfTv4MPbOG4Qv9gUmifpX",
   teamGroup: asset("/images/team-group.jpg"),
   medalWinners: asset("/images/medal-winners.jpg"),
   sahilPortrait: asset("/images/sahil-portrait.jpg"),
