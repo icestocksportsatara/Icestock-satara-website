@@ -105,6 +105,7 @@ export const events = [
     registrationOpen: true,
   },
 ];
+
 export const medalTally = {
   tournament: "13th National Icestock Sport Championship 2026",
   venue: "Himadri Ice Rink, Dehradun, Uttarakhand",
@@ -117,6 +118,7 @@ export const medalTally = {
     { id: 6, name: "Somaraj Sawant",    gold: 1, silver: 0, bronze: 0, photo: asset("/images/players/somaraj-sawant.jpg") },
   ],
 };
+
 // 5 disciplines with rules & scoring (based on IFI / International Federation)
 export const disciplines = [
   {
