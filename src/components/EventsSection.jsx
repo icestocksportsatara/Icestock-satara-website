@@ -1,6 +1,6 @@
 import React from "react";
 import { events } from "../mock";
-import { Calendar, MapPin } from "lucide-react";
+import { Calendar, MapPin, MessageCircle } from "lucide-react";
 
 const tagStyles = {
   blue: "bg-[#2e8bc0] text-white",
