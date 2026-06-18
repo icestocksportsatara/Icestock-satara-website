@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import NewsSection from "./components/NewsSection";
 import EventsSection from "./components/EventsSection";
 import DisciplinesSection from "./components/DisciplinesSection";
+import MedalTallySection from "./components/MedalTallySection";
 import LeadershipSection from "./components/LeadershipSection";
 import InsideIFI from "./components/InsideIFI";
 import Footer from "./components/Footer";
@@ -34,6 +35,7 @@ function App() {
         <NewsSection />
         <EventsSection />
         <DisciplinesSection />
+        <MedalTallySection />
         <LeadershipSection />
         <InsideIFI />
       </main>
