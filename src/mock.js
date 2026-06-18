@@ -105,7 +105,18 @@ export const events = [
     registrationOpen: true,
   },
 ];
-
+export const medalTally = {
+  tournament: "13th National Icestock Sport Championship 2026",
+  venue: "Himadri Ice Rink, Dehradun, Uttarakhand",
+  players: [
+    { id: 1, name: "Nisha Ghadge",      gold: 4, silver: 0, bronze: 0, photo: asset("/images/players/nisha-ghadge.jpg") },
+    { id: 2, name: "Manaswi Choure",    gold: 3, silver: 0, bronze: 0, photo: asset("/images/players/manaswi-choure.jpg") },
+    { id: 3, name: "Sahil Gurjar",      gold: 1, silver: 1, bronze: 0, photo: asset("/images/players/sahil-gurjar.jpg") },
+    { id: 4, name: "Sumit Suryawanshi", gold: 1, silver: 1, bronze: 0, photo: asset("/images/players/sumit-suryawanshi.jpg") },
+    { id: 5, name: "Om Navale",         gold: 1, silver: 0, bronze: 0, photo: asset("/images/players/om-navale.jpg") },
+    { id: 6, name: "Somaraj Sawant",    gold: 1, silver: 0, bronze: 0, photo: asset("/images/players/somaraj-sawant.jpg") },
+  ],
+};
 // 5 disciplines with rules & scoring (based on IFI / International Federation)
 export const disciplines = [
   {
